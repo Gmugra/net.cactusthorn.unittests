@@ -2,6 +2,12 @@
 <!DOCTYPE configuration><!--  to avoid warning in Eclipse -->
 <configuration>
 
+    <!--
+    This configuration will switch of logging to console,
+    but logging itself will work, which keep possibility to 
+    write logging related unit-test
+    -->
+
 	<appender name="DONOTHING"
 		class="ch.qos.logback.core.helpers.NOPAppender" />
 

@@ -32,6 +32,7 @@
 		<dependency.version.logback-classic>1.2.3</dependency.version.logback-classic>
 		<dependency.version.mockito-core>3.2.4</dependency.version.mockito-core>
 		<dependency.version.javax.servlet-api>3.1.0</dependency.version.javax.servlet-api>
+		<dependency.version.hsqldb>2.5.0</dependency.version.hsqldb>
 
 		<plugin.version.maven.compiler>3.8.0</plugin.version.maven.compiler>
 	</properties>
@@ -66,6 +67,18 @@
 			<version>${dependency.version.mockito-core}</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
+			<version>${dependency.version.hsqldb}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>sqltool</artifactId>
+            <version>${dependency.version.hsqldb}</version>
+            <scope>test</scope>
+        </dependency>
 	</dependencies>
 	<build>
 		<plugins>
