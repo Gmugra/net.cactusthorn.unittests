@@ -1,0 +1,28 @@
+# ignore everything whose name starts with a dot
+.*
+# discard ignoring Git configuration files
+!.gitattributes
+!.gitignore
+!.gitkeep
+
+# ignore log files
+*.log
+
+# ignore Eclipse specifics
+bin/
+
+# ignore IntelliJ specifics
+*.iml
+out/
+
+# ignore JDeveloper specifics
+classes/
+temp/
+deploy/
+cwallet.sso.lck
+*.jpr
+*.jws
+
+# ignore Maven specifics(but discard ignoring .mvn/ folder in the root)
+target/
+!/.mvn/
