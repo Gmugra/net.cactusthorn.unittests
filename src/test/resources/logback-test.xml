@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration><!--  to avoid warning in Eclipse -->
+<configuration>
+
+	<appender name="DONOTHING"
+		class="ch.qos.logback.core.helpers.NOPAppender" />
+
+	<root level="trace">
+		<appender-ref ref="DONOTHING" />
+	</root>
+</configuration>
