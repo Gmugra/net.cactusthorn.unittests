@@ -41,7 +41,7 @@ public class SimpleHSQLDBTest {
     @Test
     public void test() throws SQLException {
         SomethingToDoWithJDBC std = new SomethingToDoWithJDBC();
-        assertEquals("VALUE1", std.getCol1(CON));
+        assertEquals("1:VALUE1", std.getCol1(CON));
     }
 
 }
