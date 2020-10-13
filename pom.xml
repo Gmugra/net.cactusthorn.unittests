@@ -27,7 +27,7 @@
 
 		<java.version>1.8</java.version>
 
-		<dependency.version.junit>4.12</dependency.version.junit>
+		<dependency.version.junit>4.13.1</dependency.version.junit>
 		<dependency.version.slf4j-api>1.7.25</dependency.version.slf4j-api>
 		<dependency.version.logback-classic>1.2.3</dependency.version.logback-classic>
 		<dependency.version.mockito-core>3.2.4</dependency.version.mockito-core>
